@@ -1,6 +1,7 @@
-.Imagen {
+/*Navbar*/
+.Logo {
   margin-left: 5vmin;
-  width: 30vmin;
+  width: 20vmin;
 }
 
 .nav-item {
@@ -10,19 +11,21 @@
 }
 
 .nav-item h1 {
-  font-size: 3vmin;
+  font-size: 2.3vmin;
   color: white;
   margin: 0% 7%;
 }
 
 .nav-item h1:hover {
-  color: rgb(229, 255, 85)
+  color: rgb(229, 255, 85);
 }
 
-.espacio{
+.espacio {
   width: 100%;
   height: 4vmin;
 }
+
+/*Main*/
 .container {
   width: 100%;
   height: fit-content;
@@ -46,11 +49,13 @@
 .col-4 h1 {
   padding: -2vmin;
   font-size: 2vmin;
-  color: rgb(88, 88, 88); 
+  color: rgb(88, 88, 88);
 }
 
+/*Contenido Main*/
+
 .fotoPerfil {
-  width: 25vmin;
+  width: 20vmin;
   border-radius: 50%;
   display: flex;
   margin-bottom: 4vmin;
@@ -66,7 +71,7 @@
 .contenedorInfo {
   margin-top: 2vmin;
   height: fit-content;
-  background-color:  rgb(235, 243, 250);
+  background-color: rgb(235, 243, 250);
   box-shadow: 2px 2px 5px #999;
 }
 
@@ -82,7 +87,7 @@
   margin: auto;
   padding: 2vmin;
   font-size: 2.5vmin;
-  background-color:  rgb(235, 243, 250);
+  background-color: rgb(235, 243, 250);
   color: rgb(88, 88, 88);
 }
 
@@ -103,5 +108,61 @@
 
 #Col12 button:hover {
   background-color: rgb(100, 176, 238);
-  color: rgb(229, 255, 85)
+  color: rgb(229, 255, 85);
+}
+
+/*Comentario*/
+.col-3 {
+  margin: 3vmin 0;
+}
+
+.col-3 button {
+  font-size: 2.5vmin;
+  background-color: transparent;
+  border: transparent;
+  font-weight: bold;
+  color:rgb(100, 176, 238);
+}
+
+.col-11 {
+  background-color: rgb(233, 233, 233);
+  margin: 0 auto;
+  height: 5vmin;
+  border-radius: 2vmin;
+}
+
+.col-11 input {
+  font-size: 2vmin;
+  padding: 0 3vmin;
+  color: rgb(126, 122, 122);
+  background-color: transparent;
+  border: transparent;
+  width: 100%;
+  height: 5vmin ;
+  border-radius: 2vmin;
+  text-align:justify
+}
+
+#col12btn {
+  margin: 3vmin 0;
+  background-color: transparent;
+  box-shadow: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#col12btn button {
+  border-color: transparent;
+  margin: 0 5%;
+  cursor: pointer;
+  font-size: 2vmin;
+  font-weight: bold;
+}
+
+#col12btn button:hover {
+  background-color: rgb(100, 176, 238);
+  color: rgb(229, 255, 85);
 }
