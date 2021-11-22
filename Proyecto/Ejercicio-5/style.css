@@ -1,0 +1,29 @@
+
+.Imagen{
+    margin-left: 5vmin;
+    width: 30vmin;
+}
+
+.nav-item{
+    
+    width: fit-content;
+    margin: 0% 15%;
+    color: white;
+}
+
+.nav-item h1{
+    font-size: 3vmin;
+    color: white;
+}
+
+.container{
+    width: 100%;
+    height: 50vmin;
+    background-color: red;
+    border-radius: 2vmin;
+    padding: 5vmin;
+}
+
+.col-sm-8 h1{
+    font-size: 3vmin;
+}
