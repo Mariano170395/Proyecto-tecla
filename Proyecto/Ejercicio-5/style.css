@@ -1,29 +1,88 @@
-
-.Imagen{
-    margin-left: 5vmin;
-    width: 30vmin;
+.Imagen {
+  margin-left: 5vmin;
+  width: 30vmin;
 }
 
-.nav-item{
-    
-    width: fit-content;
-    margin: 0% 15%;
+.nav-item {
+  width: fit-content;
+  margin: 0% 15%;
+  color: white;
+}
+
+.nav-item h1 {
+  font-size: 3vmin;
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: fit-content;
+  background-color: #ebebeb;
+  border-radius: 2vmin;
+  padding: 5vmin;
+}
+
+.col-12 {
+  background-color: #d7ddd9;
+}
+.col-4 {
+    margin-top: 2vmin;
+  background-color: rgb(235, 243, 250);
+  height: fit-content;
+}
+
+.col-4 h1 {
+  padding: -2vmin;
+  font-size: 2vmin;
+}
+
+.fotoPerfil {
+  width: 28vmin;
+  border-radius: 50%;
+  display: flex;
+  margin-bottom: 4vmin;
+  display:block;
+margin:auto;
+}
+
+.Nombre {
+  font-size: 2.5vmin;
+}
+
+.contenedorInfo {
+  margin-top: 2vmin;
+  height: fit-content;
+}
+
+.imagenInfo {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+
+.textoInfo {
+    display: block;
+    margin: auto;
+    padding: 4%;
+  font-size: 3vmin;
+}
+
+#Col12{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+}
+
+#Col12 button{
+    border-color: transparent ;
+    margin: 0 5%;
+    cursor: pointer;
+    font-size: 2vmin;
+    font-weight: bold;
+}
+
+#Col12 button:hover{
+    background-color: rgb(171, 211, 246);
     color: white;
-}
-
-.nav-item h1{
-    font-size: 3vmin;
-    color: white;
-}
-
-.container{
-    width: 100%;
-    height: 50vmin;
-    background-color: red;
-    border-radius: 2vmin;
-    padding: 5vmin;
-}
-
-.col-sm-8 h1{
-    font-size: 3vmin;
 }
