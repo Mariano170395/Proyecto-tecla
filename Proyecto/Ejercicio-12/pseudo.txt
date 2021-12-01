@@ -1,0 +1,8 @@
+1- Inicio
+2- Declarar variables
+3- Ingresamos valores
+4- Revisamos si los valores son iguales
+5- Si son iguales los valores presenta una alerta
+6- En caso de que sean diferentes compara los tres valores
+7- Imprime el valor mayor y el menor
+8- Final
