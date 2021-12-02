@@ -56,6 +56,7 @@ let meteOtroValor = () => {
         }
       }
     };
+    
     maximo();
     console.log(max);
 

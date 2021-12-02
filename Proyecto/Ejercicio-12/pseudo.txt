@@ -5,4 +5,5 @@
 5- Si son iguales los valores presenta una alerta
 6- En caso de que sean diferentes compara los tres valores
 7- Imprime el valor mayor 
-8- Final
+8- Compara valores e imprime el menor valor
+9- Final
