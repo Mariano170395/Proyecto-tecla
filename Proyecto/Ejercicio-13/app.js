@@ -9,8 +9,8 @@
 // Hola callback
 
 
-let callBack = () =>{
-    console.log('Hola callback')
+let callBack = (saludo) =>{
+    console.log(saludo)
 }
 
 let calcular = () =>{
@@ -22,9 +22,12 @@ let calcular = () =>{
     } else{
         alert(`Hola Teclanauta tienes ${amigos1} amigos`)
     }
-    
     setTimeout(() => {
-        callBack()
+        callBack('Hola Callback')
     }, 3000);
+    
+    
+
 }
+
 
