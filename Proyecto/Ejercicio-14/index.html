@@ -79,14 +79,13 @@
         <div class="col-4" >
           <!-- ImagenPerfil -->
           <div id='ImagenPerfil1'></div>
-          <h1>Edad:</h1>
-          <h1>Puesto:</h1>
-          <h1>Intereses:</h1>
+          <div id='Edad'></div>
+          <div id='Ubicacion'></div>
         </div>
         <div class="col-8">
           <div class="contenedorInfo">
             <img
-              src="./Img/programacion-2-e1551291144973.jpg"
+              src="https://picsum.photos/300/150"
               class="imagenInfo"
               alt="ImagenContenedor"
             />
@@ -102,15 +101,15 @@
         <div class="col-12" id="Col12">
           <button>Me Gusta</button>
           <button>Compartir</button>
-          <button>Comentar</button>
+          <button onclick="OcultarComentario()">Comentar</button>
           <br />
         </div>
       </div>
-      <div class="col-3">
+      <!-- <div class="col-3">
         <button>Comentar:</button>
-      </div>
+      </div> -->
       <!-- Comentario -->
-      <div class="contenedorComentario">
+      <div class="contenedorComentario" id='Comentario'>
       <div class="col-11">
         <input placeholder="Escribe un Comentario..." type="text"></input>
       </div>

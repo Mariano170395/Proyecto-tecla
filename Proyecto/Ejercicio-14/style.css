@@ -133,6 +133,10 @@
 }
 
 /*Comentario*/
+.contenedorComentario{
+  margin-top: 5vmin;
+  display: none;
+}
 .col-3 {
   margin: 3vmin 0;
 }
@@ -148,7 +152,7 @@
 .col-11 {
   background-color: rgb(233, 233, 233);
   margin: 0 auto;
-  height: 5vmin;
+  height: 9vmin;
   border-radius: 2vmin;
 }
 
@@ -159,7 +163,7 @@
   background-color: transparent;
   border: transparent;
   width: 100%;
-  height: 5vmin ;
+  height: 9vmin ;
   border-radius: 2vmin;
   text-align:justify
 }
