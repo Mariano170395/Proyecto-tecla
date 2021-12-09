@@ -22,13 +22,16 @@ class UsuarioNuevo {
         this.Trabajas1 = Trabajas1;
     }
 }
+let enviar = () =>{
+
 
 let Seyor = new UsuarioNuevo(
-    Nombre1 = prompt('Ingresa tu Nombre'),
-    Apellido1 = prompt('Ingresa tus Apellidos'),
-    Edad1 = prompt('Ingresa tu Edad'),
-    Email1 = prompt('Ingresa tu Email'),
-    Trabajas1 = prompt('Trabajas?')
+    Nombre1 = document.getElementById('nombreDatos').value,
+    Apellido1 = document.getElementById('apellidosDatos').value,
+    Edad1 = document.getElementById('edadDatos').value,
+    Email1 = document.getElementById('emailDatos').value,
+    // Trabajas1 = prompt('Trabajas?')
     );
+    console.log(Seyor)
+}
 
-console.log(Seyor)
