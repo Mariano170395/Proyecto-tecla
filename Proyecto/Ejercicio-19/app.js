@@ -42,10 +42,6 @@ let usuarios = [
   },
 ];
 
-//Endpoint para mostrar usuarios
-server.get('/usuarios', validar, (req, res)=>{
-    res.json(usuarios)
-})
 
 //filtro usuarios por id
 let filtraUsers = (id) =>{
@@ -65,6 +61,10 @@ let filtraUsersNombre = (nombre) =>{
     }
 }
 
+//Endpoint para mostrar usuarios
+server.get('/usuarios', validar, (req, res)=>{
+    res.json(usuarios)
+})
 
 //endpoint id
 server.get('/id', validar, (req, res)=>{
